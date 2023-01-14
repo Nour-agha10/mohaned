@@ -1,0 +1,109 @@
+/* start Global Rules */
+:root{
+    --cab:#10cab7;
+}
+body{
+    margin: 0; 
+    background-color: black;
+}
+header {
+    /* تضاف للاب لجعل كل الابناء على نفس السطر */
+    display: flex;
+    /* المسافة بين العناصر "ولا بد ان تكون مع display:flex" */
+    justify-content: space-around;
+    background-color: #333333;
+}
+header ul{
+    display: flex;
+    margin: 0;
+}
+header ul li{
+    padding: 5px;
+   
+    margin: 10px;
+}
+header ul li a{
+    text-decoration: none;
+    color: gold;
+
+}
+header img{
+    height: 47px;
+}
+.back{
+    background-image: url(image/back.png);
+    height: 704px;
+    margin-top: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* mobil  */
+@media (max-width: 767px) {
+    .container {
+        max-width: auto;
+        margin: 0.2%;
+        padding:0px
+
+    }
+    
+}
+
+ /* Small Screens.  */
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium Screens */
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large Screens */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170;
+    }
+} 
